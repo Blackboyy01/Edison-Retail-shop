@@ -107,12 +107,6 @@ retail-sales-analysis/
 
 ---
 
-## 🚀 How to Run
-
-1. Open your MySQL client (e.g., MySQL Workbench, DBeaver, or CLI).
-2. Run the `SQL_project_1.sql` script — it will create the `retail_sales` table.
-3. Import your retail transaction data (CSV) into the `retail_sales` table.
-4. Execute individual queries to explore each business question.
 
 ---
 
