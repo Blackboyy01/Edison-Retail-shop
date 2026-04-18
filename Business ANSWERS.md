@@ -1,10 +1,10 @@
-# 🛒 Edison Store: Retail Sales Analysis
+# Edison Store: Retail Sales Analysis
 
 > A comprehensive SQL-based analysis of retail transactions to uncover consumer behavior, sales performance, and operational patterns across the Edison Store dataset.
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [Database Schema](#database-schema)
