@@ -1,5 +1,5 @@
 # Edison-Retail-shop
-# 🛍️ Retail Sales Analysis — SQL Business Intelligence Project
+# Edison's Retail Sales Analysis — SQL Business Intelligence Project
 
 > A SQL-based analytics project delivering actionable insights from retail transaction data to support sales strategy, customer segmentation, and operational decision-making.
 
@@ -11,9 +11,9 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
-A retail business with a diverse product catalogue spanning multiple categories — including Clothing and Beauty — needed a structured way to understand its sales performance, customer behaviour, and operational patterns. The company held a rich dataset of point-of-sale transactions but lacked the analytical framework to extract meaningful business insights from it.
+Edison's retail is a business with diverse product catalogue spanning multiple categories — including Clothing and Beauty — needed a structured way to understand its sales performance, customer behaviour, and operational patterns. The company held a rich dataset of point-of-sale transactions but lacked the analytical framework to extract meaningful business insights from it.
 
 The core business challenge was: **how can transaction-level data be transformed into intelligence that drives smarter decisions around product strategy, customer targeting, and staffing?**
 
@@ -21,7 +21,7 @@ Without clear visibility into who is buying, what is selling, when peak activity
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 1. **Clean and validate** the transaction dataset to ensure analytical integrity before drawing conclusions.
 2. **Establish baseline metrics** — total sales volume, unique customer count, and category breadth.
@@ -33,9 +33,9 @@ Without clear visibility into who is buying, what is selling, when peak activity
 
 ---
 
-## 🗂️ Project Overview
+## Project Overview
 
-This project was delivered as a freelance engagement, simulating a real-world retail analytics brief. Using a single relational table of retail transaction records, a series of structured SQL queries were developed to answer 10 targeted business questions — covering data quality assessment, sales analysis, customer intelligence, and operational insights.
+This project was delivered as a  retail analytics brief. Using a single relational table of retail transaction records, a series of structured SQL queries were developed to answer 10 targeted business questions covering data quality assessment, sales analysis, customer intelligence, and operational insights.
 
 The analysis was designed to be immediately actionable: each query maps to a specific business decision, from understanding which categories to prioritise to knowing when the store is busiest.
 
@@ -72,10 +72,10 @@ The analysis was designed to be immediately actionable: each query maps to a spe
 
 ---
 
-## 💡 Key Insights Delivered
+## Key Insights Delivered
 
 - **Category Performance:** Identified which product categories generate the highest net revenue and order frequency, enabling focused inventory and marketing investment.
-- **Seasonal Peaks:** Pinpointed the best-performing month in each year by average sale value — informing when to run promotions or increase stock.
+- **Seasonal Peaks:** Pinpointed the best-performing month in each year by average sale value  informing when to run promotions or increase stock.
 - **Customer Demographics:** Revealed the average age of Beauty category shoppers, providing a foundation for targeted campaigns.
 - **VIP Customers:** Surfaced the top 5 highest-spending customers, enabling the business to design loyalty or retention programmes.
 - **Shift Analysis:** Quantified order volumes by time of day, giving management clear data to optimise staffing schedules and in-store experience.
@@ -87,7 +87,7 @@ The analysis was designed to be immediately actionable: each query maps to a spe
 | Tool | Purpose |
 |---|---|
 | **MySQL** | Database creation, data storage, and query execution |
-| **SQL (DDL & DML)** | Schema design, data cleaning, and analytical queries |
+| **MySQL (DDL & DML)** | Schema design, data cleaning, and analytical queries |
 | **CASE Statements** | Data quality flagging and shift segmentation |
 | **Window Functions** | `RANK()` for identifying best-selling months per year |
 | **CTEs** | Structuring the shift analysis query cleanly |
@@ -96,14 +96,6 @@ The analysis was designed to be immediately actionable: each query maps to a spe
 
 ---
 
-## 📁 Repository Structure
-
-```
-retail-sales-analysis/
-│
-├── SQL_project_1.sql       # Full SQL script (schema + cleaning + analysis queries)
-└── README.md               # Project documentation
-```
 
 ---
 
