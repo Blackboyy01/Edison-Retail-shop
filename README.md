@@ -28,6 +28,8 @@
 
 ## Executive Summary
 
+* [View executive summary](executive%20summary.png)
+  
 Edison Store delivered solid performance across its three core categories between 2022 and 2023, processing nearly **1,987 transactions** worth approximately **$908,230** in total revenue. Electronics led on revenue at **$311,445**, while Clothing drove the highest order volume at **698 transactions** and the widest unique customer reach with **149 distinct buyers**.
 
 The business shows a strong evening bias over **53%** of all orders occur after 5 PM while morning and afternoon periods remain significantly underutilised. Seasonally, **July 2022** (avg. $541/sale) and **February 2023** (avg. $536/sale) stood out as the highest-value months, likely reflecting recurring demand cycles worth capitalising on with targeted promotions.
@@ -132,6 +134,11 @@ CREATE TABLE retail_sales (
 
 ## Key Insights
 
+
+* [View key insights](Key%20insights%20.png)
+
+
+
 |#|Insight                                                                                                                                                  |Metric                                  |
 |-|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
 |1|**Electronics is the revenue engine**  :leads all categories in net revenue, narrowly ahead of Clothing                                                  |$311,445 vs. $309,995                   |
@@ -146,6 +153,8 @@ CREATE TABLE retail_sales (
 
 ## Strategic Recommendations
 
+* [View Recommendations](Recommendations%20.png)
+  
 |#|Recommendation                                                                                                                                                  |Rationale                                                                                              |
 |-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 |1|**Launch a VIP retention programme** : introduce tiered rewards, early access, and personalised outreach for top spenders                                       |Customer #3 alone spent $38,440 with no structured loyalty mechanism in place                          |
