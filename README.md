@@ -17,7 +17,7 @@
 3. [Project Objectives](#project-objectives)
 4. [Project Overview](#project-overview)
    - [Database Schema](#database-schema)
-   - [Business Questions Answered](#business-questions-answered)
+   - [Business Questions](#business-questions)
 5. [Key Insights](#key-insights)
 6. [Strategic Recommendations](#strategic-recommendations)
 7. [Tools & Technologies](#tools--technologies)
@@ -29,9 +29,9 @@
 
 Edison Store delivered solid performance across its three core categories between 2022 and 2023, processing nearly **1,987 transactions** worth approximately **$908,230** in total revenue. Electronics led on revenue at **$311,445**, while Clothing drove the highest order volume at **698 transactions** and the widest unique customer reach with **149 distinct buyers**.
 
-The business shows a strong evening bias — over **53%** of all orders occur after 5 PM — while morning and afternoon periods remain significantly underutilised. Seasonally, **July 2022** (avg. $541/sale) and **February 2023** (avg. $536/sale) stood out as the highest-value months, likely reflecting recurring demand cycles worth capitalising on with targeted promotions.
+The business shows a strong evening bias over **53%** of all orders occur after 5 PM while morning and afternoon periods remain significantly underutilised. Seasonally, **July 2022** (avg. $541/sale) and **February 2023** (avg. $536/sale) stood out as the highest-value months, likely reflecting recurring demand cycles worth capitalising on with targeted promotions.
 
-Gender split is near-equal across all categories, suggesting broad market appeal. The Beauty segment, however, skews toward a mature customer base (avg. age ~40), presenting a clear opportunity for age-specific product positioning and marketing. At the customer level, a small group of VIP buyers drives outsized value — **Customer #3** alone accounts for **$38,440** in lifetime spend — with no formalised retention programme currently in place.
+Gender split is near-equal across all categories, suggesting broad market appeal. The Beauty segment, however, skews toward a mature customer base (avg. age ~40), presenting a clear opportunity for age-specific product positioning and marketing. At the customer level, a small group of VIP buyers drives outsized value **Customer #3** alone accounts for **$38,440** in lifetime spend with no formalised retention programme currently in place.
 
 | Metric | Value |
 |---|---|
@@ -50,7 +50,7 @@ Gender split is near-equal across all categories, suggesting broad market appeal
 
 ## Problem Statement
 
-Edison Retail is a business with a diverse product catalogue spanning multiple categories — including Clothing, Beauty, and Electronics — that needed a structured way to understand its sales performance, customer behaviour, and operational patterns. The company held a rich dataset of point-of-sale transactions but lacked the analytical framework to extract meaningful business insights from it.
+Edison Retail is a business with a diverse product catalogue spanning multiple categories including Clothing, Beauty, and Electronics that needed a structured way to understand its sales performance, customer behaviour, and operational patterns. The company held a rich dataset of point-of-sale transactions but lacked the analytical framework to extract meaningful business insights from it.
 
 The core business challenge was: **how can transaction-level data be transformed into intelligence that drives smarter decisions around product strategy, customer targeting, and staffing?**
 
@@ -61,10 +61,10 @@ Without clear visibility into who is buying, what is selling, when peak activity
 ## Project Objectives
 
 1. **Clean and validate** the transaction dataset to ensure analytical integrity before drawing conclusions.
-2. **Establish baseline metrics** — total sales volume, unique customer count, and category breadth.
+2. **Establish baseline metrics**  total sales volume, unique customer count, and category breadth.
 3. **Analyse category performance** to identify which product lines generate the most revenue and order volume.
 4. **Profile customers** by demographics (age, gender) and purchasing behaviour across categories.
-5. **Uncover temporal trends** — identifying peak sales months per year and busiest trading shifts by time of day.
+5. **Uncover temporal trends** identifying peak sales months per year and busiest trading shifts by time of day.
 6. **Rank top customers** by total spend to support loyalty and retention strategies.
 7. **Segment transactions by shift** to provide operational insight for staffing and inventory planning.
 
@@ -74,7 +74,7 @@ Without clear visibility into who is buying, what is selling, when peak activity
 
 This project was delivered as a retail analytics brief. Using a single relational table of retail transaction records, a series of structured SQL queries were developed to answer 10 targeted business questions covering data quality assessment, sales analysis, customer intelligence, and operational insights.
 
-The analysis was designed to be immediately actionable — each query maps to a specific business decision, from understanding which categories to prioritise to knowing when the store is busiest.
+The analysis was designed to be immediately actionable each query maps to a specific business decision, from understanding which categories to prioritise to knowing when the store is busiest.
 
 ### Database Schema
 
@@ -108,7 +108,7 @@ CREATE TABLE retail_sales (
 | `cogs` | FLOAT | Cost of goods sold |
 | `total_sale` | FLOAT | Total transaction value |
 
-### Business Questions Answered
+### Business Questions
 
 | # | Question | Business Value |
 |---|---|---|
@@ -129,13 +129,13 @@ CREATE TABLE retail_sales (
 
 | # | Insight | Metric |
 |---|---|---|
-| 1 | **Electronics is the revenue engine** — leads all categories in net revenue, narrowly ahead of Clothing | $311,445 vs. $309,995 |
-| 2 | **Evening dominates trading** — more than half of all orders occur after 5 PM; mornings and afternoons are underutilised | 1,062 orders · 53%+ share |
-| 3 | **A small group of customers drives outsized value** — the top 5 buyers contribute disproportionate revenue with no retention programme in place | Customer #3: $38,440 lifetime spend |
-| 4 | **Seasonal peaks are predictable** — July and February consistently outperform other months by average sale value | July 2022: $541 avg · Feb 2023: $536 avg |
-| 5 | **Beauty serves a defined, older demographic** — the avg. buyer is 40.4 years old, an under-leveraged targeting opportunity | Avg. age: 40.4 yrs |
-| 6 | **Gender parity signals broad appeal** — a near-equal male/female split across all categories shows wide reach, but limits gender as a segmentation lever | Largest gap: 49 transactions (Clothing) |
-| 7 | **Clothing has the widest customer reach** — highest unique customer count and order volume of all categories | 149 unique buyers · 698 orders |
+| 1 | **Electronics is the revenue engine**  :leads all categories in net revenue, narrowly ahead of Clothing | $311,445 vs. $309,995 |
+| 2 | **Evening dominates trading** :more than half of all orders occur after 5 PM; mornings and afternoons are underutilised | 1,062 orders · 53%+ share |
+| 3 | **A small group of customers drives outsized value** :the top 5 buyers contribute disproportionate revenue with no retention programme in place | Customer #3: $38,440 lifetime spend |
+| 4 | **Seasonal peaks are predictable** : July and February consistently outperform other months by average sale value | July 2022: $541 avg · Feb 2023: $536 avg |
+| 5 | **Beauty serves a defined, older demographic** : the avg. buyer is 40.4 years old, an under-leveraged targeting opportunity | Avg. age: 40.4 yrs |
+| 6 | **Gender parity signals broad appeal** : a near-equal male/female split across all categories shows wide reach, but limits gender as a segmentation lever | Largest gap: 49 transactions (Clothing) |
+| 7 | **Clothing has the widest customer reach** : highest unique customer count and order volume of all categories | 149 unique buyers · 698 orders |
 
 ---
 
@@ -143,12 +143,12 @@ CREATE TABLE retail_sales (
 
 | # | Recommendation | Rationale |
 |---|---|---|
-| 1 | **Launch a VIP retention programme** — introduce tiered rewards, early access, and personalised outreach for top spenders | Customer #3 alone spent $38,440 with no structured loyalty mechanism in place |
-| 2 | **Drive daytime traffic with targeted incentives** — morning flash deals or lunch-hour bundles to redistribute demand away from the evening peak | Evening holds 53%+ of orders; Morning (548) and Afternoon (377) are significantly underutilised |
-| 3 | **Pre-load stock and campaigns for July and February** — plan promotions and increase inventory depth ahead of these recurring peak months | Both months outperform on avg. sale value across both years analysed |
-| 4 | **Build a dedicated Beauty strategy for the 35–50 age bracket** — develop age-appropriate messaging, curated product selections, and repeat-purchase incentives | Avg. Beauty buyer is 40.4 yrs — currently treated the same as other categories in marketing |
-| 5 | **Protect the Electronics revenue lead through upselling** — introduce accessories, warranties, and bundles to grow avg. transaction value per order | Electronics leads on revenue but Clothing is less than $1,500 behind, with 20 more orders |
-| 6 | **Compound Clothing's customer base advantage** — invest in referral incentives, new customer discounts, and seasonal collections | Clothing already has the widest reach (149 unique buyers) — the strongest acquisition category to scale |
+| 1 | **Launch a VIP retention programme** : introduce tiered rewards, early access, and personalised outreach for top spenders | Customer #3 alone spent $38,440 with no structured loyalty mechanism in place |
+| 2 | **Drive daytime traffic with targeted incentives** : morning flash deals or lunch-hour bundles to redistribute demand away from the evening peak | Evening holds 53%+ of orders; Morning (548) and Afternoon (377) are significantly underutilised |
+| 3 | **Pre-load stock and campaigns for July and February** : plan promotions and increase inventory depth ahead of these recurring peak months | Both months outperform on avg. sale value across both years analysed |
+| 4 | **Build a dedicated Beauty strategy for the 35–50 age bracket** :  develop age-appropriate messaging, curated product selections, and repeat-purchase incentives | Avg. Beauty buyer is 40.4 yrs — currently treated the same as other categories in marketing |
+| 5 | **Protect the Electronics revenue lead through upselling** : introduce accessories, warranties, and bundles to grow avg. transaction value per order | Electronics leads on revenue but Clothing is less than $1,500 behind, with 20 more orders |
+| 6 | **Compound Clothing's customer base advantage** : invest in referral incentives, new customer discounts, and seasonal collections | Clothing already has the widest reach (149 unique buyers) — the strongest acquisition category to scale |
 
 ---
 
@@ -168,12 +168,10 @@ CREATE TABLE retail_sales (
 
 ## Author
 
-**[Your Name]**
+**Adebisi Farouk **
 Business/Sales Analyst | SQL · Data Analysis · Retail Intelligence
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](#)
+
 
 ---
 
-*Analysis performed using MySQL on the Edison Store retail transactions dataset · 2022–2023 · ~1,987 transactions*
