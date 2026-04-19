@@ -113,7 +113,7 @@ CREATE TABLE retail_sales (
 
 |# |Question                                             |Business Value                           |
 |--|-----------------------------------------------------|-----------------------------------------|
-|1 |All sales on a specific date                         |Daily transaction auditing               |
+|1 |All sales on a specific date (2022-11-05)                        |Daily transaction auditing               |
 |2 |Clothing transactions with quantity ≥ 4 in Nov 2022  |Seasonal demand & stock management       |
 |3 |Total sales and order count per category             |Category performance ranking             |
 |4 |Average customer age in the Beauty category          |Demographic targeting for marketing      |
