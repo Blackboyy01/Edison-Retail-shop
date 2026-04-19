@@ -125,7 +125,7 @@ GROUP BY 1;
 | Clothing    | 309,995.00   | 698          |
 | Electronics | 311,445.00   | 678          |
 
-> 💡 **Electronics** leads in net revenue, while **Clothing** records the highest order volume.
+> **Electronics** leads in net revenue, while **Clothing** records the highest order volume.
 
 ---
 
@@ -145,7 +145,7 @@ WHERE category = 'Beauty';
 |---------|
 | 40.42   |
 
-> 💡 The average Beauty shopper is approximately **40 years old**, indicating a mature customer segment.
+>  The average Beauty shopper is approximately **40 years old**, indicating a mature customer segment.
 
 ---
 
@@ -194,7 +194,7 @@ ORDER BY 1;
 | Electronics | Female | 335                |
 | Electronics | Male   | 343                |
 
-> 💡 Gender distribution is relatively balanced across all three categories.
+>  Gender distribution is relatively balanced across all three categories.
 
 ---
 
@@ -226,7 +226,7 @@ WHERE rnk = 1;
 | 2022 | 7     | 541.34   |
 | 2023 | 2     | 535.53   |
 
-> 💡 **July 2022** and **February 2023** were the peak revenue months for their respective years.
+>  **July 2022** and **February 2023** were the peak revenue months for their respective years.
 
 ---
 
@@ -254,7 +254,7 @@ LIMIT 5;
 | 2           | 25,295.00   |
 | 4           | 23,580.00   |
 
-> 💡 **Customer #3** is the highest value customer with over **$38K** in lifetime spend.
+>  **Customer #3** is the highest value customer with over **$38K** in lifetime spend.
 
 ---
 
@@ -278,7 +278,7 @@ GROUP BY 2;
 | Clothing    | 149           |
 | Electronics | 144           |
 
-> 💡 **Clothing** attracts the widest unique customer base across all categories.
+> **Clothing** attracts the widest unique customer base across all categories.
 
 ---
 
@@ -311,7 +311,7 @@ GROUP BY shift;
 | Morning   | 548          |
 | Afternoon | 377          |
 
-> 💡 **Evening** is by far the busiest trading period, accounting for over **53%** of all orders.
+> **Evening** is by far the busiest trading period, accounting for over **53%** of all orders.
 
 ---
 
@@ -320,10 +320,10 @@ GROUP BY shift;
 | # | Insight |
 |---|---------|
 | 1 | **Electronics** generates the highest net revenue at **$311,445**, narrowly ahead of Clothing. |
-| 2 | **Evening hours** dominate order volume with **1,062 orders** — ideal window for promotions and flash sales. |
+| 2 | **Evening hours** dominate order volume with **1,062 orders** : ideal window for promotions and flash sales. |
 | 3 | The **Beauty** category skews toward customers aged ~40, suggesting targeted marketing opportunities. |
 | 4 | **Customer #3** is the store's most valuable customer with **$38,440** in total lifetime spend. |
-| 5 | **July 2022** and **February 2023** were peak revenue months — likely driven by seasonal demand. |
+| 5 | **July 2022** and **February 2023** were peak revenue months likely driven by seasonal demand. |
 | 6 | Gender split across all categories is nearly **50/50**, indicating broad cross-gender appeal. |
 | 7 | **Clothing** has the highest unique customer count (**149**), showing the widest market reach. |
 
