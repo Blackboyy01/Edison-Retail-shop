@@ -171,7 +171,7 @@ CREATE TABLE retail_sales (
 |Tool                     |Purpose                                                             |
 |-------------------------|--------------------------------------------------------------------|
 |**MySQL**                |Database creation, data storage, and query execution                |
-|**MySQL (DDL & DML)**    |Schema design, data cleaning, and analytical queries                |
+|**SQL (DDL & DML)**    |Schema design, data cleaning, and analytical queries                |
 |**CASE Statements**      |Data quality flagging and shift segmentation                        |
 |**Window Functions**     |`RANK()` for identifying best-selling months per year               |
 |**CTEs**                 |Structuring the shift analysis query cleanly                        |
