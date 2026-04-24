@@ -17,6 +17,7 @@
 1. [Project Objectives](#project-objectives)
 1. [Project Overview](#project-overview)
 - [Database Schema](#database-schema)
+-  [View Queries](#view-queries)
 - [Business Questions](#business-questions)
 - [Business Answers](#business-answers)
 1. [Key Insights](#key-insights)
@@ -110,6 +111,9 @@ CREATE TABLE retail_sales (
 |`price_per_unit`|FLOAT   |Unit price                   |
 |`cogs`          |FLOAT   |Cost of goods sold           |
 |`total_sale`    |FLOAT   |Total transaction value      |
+
+### View Queries
+* [ View Queries ](edison%20retail%20analysis.sql))
 
 ### Business Questions
 
